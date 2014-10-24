@@ -1,1 +1,0 @@
---Output from Test persist and retrieve one-to-one with inverse key--
