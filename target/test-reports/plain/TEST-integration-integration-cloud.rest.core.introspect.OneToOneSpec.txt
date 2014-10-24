@@ -1,0 +1,27 @@
+Testsuite: cloud.rest.core.introspect.OneToOneSpec
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0,481 sec
+------------- Standard Output ---------------
+--Output from Test persist and retrieve one-to-one with inverse key--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test persist and retrieve one-to-one with inverse key--
+------------- ---------------- ---------------
+
+Testcase: Test persist and retrieve one-to-one with inverse key took 0,458 sec
+	FAILED
+Condition not satisfied:
+
+association.bidirectional
+|           |
+|           false
+test.Face->nose
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+association.bidirectional
+|           |
+|           false
+test.Face->nose
+
+	at cloud.rest.core.introspect.OneToOneSpec.Test persist and retrieve one-to-one with inverse key(OneToOneSpec.groovy:37)
+
